@@ -19,8 +19,8 @@ const FormSuscribe = () => {
                 >
                     <div className=" col-md-6 mx-auto input group ">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="ingresa tu email" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                            <span className="input-group-text"> <button type="button" class="btn btn-link"><i class="bi bi-arrow-right"></i></button></span>
+                            <input type="email" class="form-control" placeholder="ingresa tu email"  name="Email" id="email"/>
+                            <span className="input-group-text"> <button type="submit" class="btn btn-link"><i class="bi bi-arrow-right"></i></button></span>
                         </div>
                     </div>
                 </form>
