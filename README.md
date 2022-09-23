@@ -7,7 +7,7 @@ Para este proyecto se utilizo
 - [REACT] 
 - [BOOTSTRAP] 
 - [BOOTSTRAP-ICONS] 
-- [FORMIK-YUP] Validacirm del formulario
+- [FORMIK-YUP] Validacióm del formulario
 
 
 ### `npm start`
