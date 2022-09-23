@@ -13,9 +13,14 @@ const Gallery = () => {
         <div className="container-fluid d-grid p-0">
             <div className="row">
                 <div className="col-sm-6">
-                    <div className="">
+                    <div className="position-relative">
+                    <div className='card-text position-absolute bottom-50 end-50'>
+                            <button type='buton' className="text-primary button1">SHOP</button>
+                            </div>
                         <img src={img1} alt="" className=" img-fluid" />
                         <div className="card-img-overlay">
+                          
+                       
                         </div>
                     </div>
                 </div>

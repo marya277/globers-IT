@@ -1,4 +1,7 @@
+import Form from './Form';
+
 import gallery2 from '../assets/gallery2.png';
+
 const FormSuscribe = () => {
     return (
         <div ClassName="container d-inline-flex">
@@ -12,18 +15,7 @@ const FormSuscribe = () => {
                     <p className="fs-1">SUSCRIBITE</p>
                     <p> Y enterate de todas las novedades</p>
                 </div>
-                
-                <form className="row g-3"
-                    action="https://formspree.io/f/xgeqaknv"
-                    method="POST"
-                >
-                    <div className=" col-md-6 mx-auto input group ">
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="ingresa tu email"  name="Email" id="email"/>
-                            <span className="input-group-text"> <button type="submit" class="btn btn-link"><i class="bi bi-arrow-right"></i></button></span>
-                        </div>
-                    </div>
-                </form>
+               <Form/>
             
             </article>
 

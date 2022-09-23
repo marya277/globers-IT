@@ -79,10 +79,10 @@ const Header = () => {
 
 
       <main className='d-flex justify-content-center mt-5'>
-        <p className='fs-2 fw-bolder'>ESTÁR CÓMODO,<br />NUNCA FUE TAN FÁCIL.</p>
+        <p className='fs-2 fw-bolder text-primary'>ESTÁR CÓMODO,<br />NUNCA FUE TAN FÁCIL.</p>
       </main>
       <div className="d-flex justify-content-center mt-5">
-        <button type='buton' className="">SHOP</button>
+        <button type='buton' className="button1 text-primary">SHOP</button>
       </div>
     </div>
   )
